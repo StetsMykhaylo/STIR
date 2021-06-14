@@ -981,7 +981,7 @@ main{
     border-radius: 10px;
     border: 1px solid #EDEDED;
     padding: 0 38px;
-    overflow:hidden;
+    overflow: hidden;
 }
 .p_item_center{
     color: #191919;
@@ -1004,14 +1004,14 @@ main{
     width:100%;
     padding: 180px 0 0 120px;
     >p:nth-child(2){
-        font-size: calc(32px + 32 * ((100vw - 320px) / (1440 - 320)));
+        font-size: 64px;
         color:#fff;
         margin-top: 30px;
     }
     >p:nth-child(3){
         @extend .p_twenty;
         text-align: start;
-       // width: 565px;
+       
         color:#fff;
         margin-top: 30px;
     }
@@ -1032,9 +1032,6 @@ main{
         text-align: center;
         opacity: 1;
     }
-    
-   
-   
 }
 .drops{
     width:64px;
@@ -1073,7 +1070,7 @@ main{
     place-items: center;
     
     p{
-        font-size: calc(20px + 44 * ((100vw - 320px) / (1440 - 320)));
+        
         color: #fff;
         text-align: center;
         line-height: 67px;
@@ -1081,10 +1078,12 @@ main{
         margin: 0;
         padding: 0;
     }
-    .middle_start{
-        margin-left: -8px;
-        width:100%;
-    }
+   
+}
+.middle_start{
+    margin-left: -8px;
+    width:100%;
+    font-size:64px;
 }
 .middle_one{
     background-image: url(../img/image2.png);
@@ -1220,6 +1219,9 @@ main{
         grid-template-columns: repeat(2, 1fr);
        
     }
+    .middle_start{
+        font-size: 48px;
+    }
 }
 @media screen and (max-width: 1024px) {
     .who_content1, .who_content2, .who_icons1, .who_icons2{
@@ -1260,6 +1262,7 @@ main{
         gap:0;
         justify-content: space-around;
     }
+   
 }
 @media screen and (max-width: 800px) {
     .empty{
