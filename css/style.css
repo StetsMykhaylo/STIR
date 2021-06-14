@@ -1328,7 +1328,7 @@ main {
   border-radius: 10px;
   border: 1px solid #EDEDED;
   padding: 0 38px;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .p_item_center {
@@ -1356,7 +1356,7 @@ main {
 }
 
 .creators_higher > p:nth-child(2) {
-  font-size: calc(32px + 32 * ((100vw - 320px) / (1440 - 320)));
+  font-size: 64px;
   color: #fff;
   margin-top: 30px;
 }
@@ -1433,7 +1433,6 @@ main {
 }
 
 .middle_item_inner p {
-  font-size: calc(20px + 44 * ((100vw - 320px) / (1440 - 320)));
   color: #fff;
   text-align: center;
   line-height: 67px;
@@ -1441,9 +1440,10 @@ main {
   padding: 0;
 }
 
-.middle_item_inner .middle_start {
+.middle_start {
   margin-left: -8px;
   width: 100%;
+  font-size: 64px;
 }
 
 .middle_one {
@@ -1611,6 +1611,9 @@ main {
   .inner_cards {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
+  }
+  .middle_start {
+    font-size: 48px;
   }
 }
 
